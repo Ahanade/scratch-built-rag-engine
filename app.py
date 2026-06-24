@@ -26,7 +26,7 @@ def generate_ai_response(question, context):
         return context.split("Answer:")[-1].strip()
     return context
 
-# Load dataset safely
+
 document_chunks = []
 if os.path.exists("dataset.json"):
     with open("dataset.json", "r", encoding="utf-8") as f:
