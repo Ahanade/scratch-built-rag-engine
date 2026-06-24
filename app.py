@@ -44,7 +44,7 @@ demo = gr.Interface(
     fn=ask_assistant, 
     inputs=gr.Textbox(label="Ask a question:", placeholder="Type here..."),
     outputs=gr.Textbox(label="Response:"),
-    title="🏫 Intelligent Dataset Assistant",
+    title=" Intelligent Dataset Assistant",
     description="A scratch-built RAG Engine mapping intent structures via pure python word-token loops."
 )
 
